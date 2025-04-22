@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>THE Calculator</h1>
+      </div>
+
+      <div>
+        <nav class="navigation">
+          <li><a href="#">calculator</a></li>
+          <li><a href="#">description</a></li>
+          <li><a href="#">about</a></li>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="calc_cont">
+        <div class="display">
+          <p class="semi-answer"></p>
+          <p class="answer">0</p>
+        </div>
+
+        <div class="buttons_display">
+          <button id="%" class="all-buttons" onclick="calculate()">%</button>
+          <button class="all-buttons" onclick="calculate()">CE</button>
+          <button class="clear-All" onclick="calculate('c')">C</button>
+          <button class="clear" onclick="calculate()">X</button>
+          <button class="all-buttons" onclick="calculate()">1/x</button>
+          <button class="all-buttons" onclick="calculate()">x2</button>
+          <button class="all-buttons" onclick="calculate()">x/x</button>
+          <button class="divide" onclick="calculate('/')">/</button>
+          <button class="one" onclick="calculate(1)">1</button>
+          <button class="two" onclick="calculate(2)">2</button>
+          <button class="three" onclick="calculate(3)">3</button>
+          <button class="multiply" onclick="calculate('*')">*</button>
+          <button class="four" onclick="calculate(4)">4</button>
+          <button class="five" onclick="calculate(5)">5</button>
+          <button class="six" onclick="calculate(6)">6</button>
+          <button class="minus" onclick="calculate('-')">-</button>
+          <button class="seven" onclick="calculate(7)">7</button>
+          <button class="eight" onclick="calculate(8)">8</button>
+          <button class="nine" onclick="calculate(9)">9</button>
+          <button class="plus" onclick="calculate('+')">+</button>
+          <button class="all-buttons" onclick="calculate()">+/-</button>
+          <button class="zero" onclick="calculate(0)">0</button>
+          <button class="point" onclick="calculate('.')">.</button>
+          <button class="calculate" onclick="calculate('=')">=</button>
+        </div>
+      </div>
+
+      <div></div>
+    </main>
+
+    <footer></footer>
+
+    <script src="main java/main.js"></script>
+  </body>
+</html>
